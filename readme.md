@@ -67,10 +67,10 @@ todo remove 1
 
 ### Steps
 
-1. **Get `<span class="selected">todo.py</span>` & Install Typer:**
+1. **Get `todo.py` & Install Typer:**
 
-   - **Create a folder, e.g., **`<span class="selected">C:\my_cli_tools\</span>`. Save `<span class="selected">todo.py</span>` inside it.
-   - **Open your command prompt (**`<span class="selected">cd C:\my_cli_tools\</span>`) and run:
+   - **Create a folder, e.g., **`C:\my_cli_tools\`. Save `todo.py` inside it.
+   - **Open your command prompt (**`cd C:\my_cli_tools\`) and run:
 
      ```
      pip install "typer[all]"
@@ -89,8 +89,8 @@ todo remove 1
 
 3. **Add Directory to PATH:**
    - **Search "Environment Variables" in Windows.**
-   - **Go to "Environment Variables..." -> "System variables" -> **`<span class="selected">Path</span>` -> "Edit...".
-   - **Click "New" and add the full path to your folder (e.g., **`<span class="selected">C:\my_cli_tools\</span>`).
+   - **Go to "Environment Variables..." -> "System variables" -> **`Path` -> "Edit...".
+   - **Click "New" and add the full path to your folder (e.g., **`C:\my_cli_tools`).
    - **Click "OK" on all windows.**
    - **Crucial:** Close and reopen your Command Prompt or PowerShell for changes to apply.
 
@@ -105,7 +105,7 @@ your-cli-tools-directory/
 
 ```
 
-**Your **`<span class="selected">todo.json</span>` file will be in `<span class="selected">C:\Users\YourUser\.todo_app_data\todo.json</span>`.
+**Your **`todo.json` file will be in `C:\Users\YourUser\.todo_app_data\todo.json`.
 
 ## 💡 Learning & Reflection
 
