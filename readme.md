@@ -69,8 +69,8 @@ todo remove 1
 
 1. **Get `todo.py` & Install Typer:**
 
-   - **Create a folder, e.g., **`C:\my_cli_tools\`. Save `todo.py` inside it.
-   - **Open your command prompt (**`cd C:\my_cli_tools\`) and run:
+   - Create a folder, e.g., `C:\my_cli_tools\`. Save `todo.py` inside it.
+   - Open your command prompt (`cd C:\my_cli_tools\`) and run:
 
      ```
      pip install "typer[all]"
@@ -79,8 +79,8 @@ todo remove 1
 
 2. **Create `<span class="selected">todo.bat</span>`:**
 
-   - **In the \*\***same directory\*\* as `todo.py`, create a file named `todo.bat`.
-   - **Add this line to **`todo.bat`:
+   - In the same directory as `todo.py`, create a file named `todo.bat`.
+   - Add this line to `todo.bat`:
 
      ```
      @python "%~dp0todo.py" %*
@@ -88,11 +88,11 @@ todo remove 1
      ```
 
 3. **Add Directory to PATH:**
-   - **Search "Environment Variables" in Windows.**
-   - **Go to "Environment Variables..." -> "System variables" -> **`Path` -> "Edit...".
-   - **Click "New" and add the full path to your folder (e.g., **`C:\my_cli_tools`).
-   - **Click "OK" on all windows.**
-   - **Crucial:** Close and reopen your Command Prompt or PowerShell for changes to apply.
+   - Search "Environment Variables" in Windows.
+   - Go to "Environment Variables..." -> "System variables" -> `Path` -> "Edit...".
+   - Click "New" and add the full path to your folder (e.g., `C:\my_cli_tools`).
+   - Click "OK" on all windows.
+   - Crucial: Close and reopen your Command Prompt or PowerShell for changes to apply.
 
 ## 📁 Project Structure
 
@@ -105,7 +105,7 @@ your-cli-tools-directory/
 
 ```
 
-**Your **`todo.json` file will be in `C:\Users\YourUser\.todo_app_data\todo.json`.
+Your `todo.json` file will be in `C:\Users\YourUser\.todo_app_data\todo.json`.
 
 ## 💡 Learning & Reflection
 
@@ -122,4 +122,4 @@ your-cli-tools-directory/
 
 ## 📄 License
 
-**This project is open-source under the **[MIT License](LICENSE "null").
+This project is open-source under the [MIT License](LICENSE "null").
