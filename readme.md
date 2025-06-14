@@ -8,11 +8,11 @@
 - **Remove Tasks:** Delete tasks by name or ID.
 - **Mark Complete:** Mark tasks as finished.
 - **View List:** See all your tasks and their status.
-- **Persistent Storage:** Tasks are saved to `<span class="selected">todo.json</span>` in your home directory, so they're always there.
+- **Persistent Storage:** Tasks are saved to `todo.json` in your home directory, so they're always there.
 
 ## 🚀 How to Use
 
-**Once installed, use the **`<span class="selected">todo</span>` command followed by subcommands:
+Once installed, use the `todo` command followed by subcommands:
 
 ### Main Help
 
