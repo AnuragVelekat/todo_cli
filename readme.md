@@ -1,6 +1,6 @@
 # 📝 Simple Todo CLI Application
 
-**This is my \*\***first Command-Line Interface (CLI) application** built with Python! It's a simple todo list manager that runs right from your terminal. I used [**Typer\*\*](https://typer.tiangolo.com/ "null"), a powerful and intuitive library that makes building CLIs easy with Python's type hints.
+This is my first Command-Line Interface (CLI) application** built with Python! It's a simple todo list manager that runs right from your terminal. I used [**Typer\*\*](https://typer.tiangolo.com/ "null"), a powerful and intuitive library that makes building CLIs easy with Python's type hints.
 
 ## ✨ Features
 
