@@ -8,10 +8,7 @@ import typer
 # Initialize the Typer application
 app = typer.Typer(help="A simple command-line todo list application.")
 
-# --- IMPORTANT CHANGE HERE: Fixed path for todo.json ---
-# Define the fixed directory for your todo data
-# It will now always be saved and loaded from: C:\Users\anura\dev\PythonProjects\todo_cli\
-data_dir = Path("C:/Users/anura/dev/PythonProjects/todo_cli")
+data_dir = Path.home() / "todo_cli"
 json_file = data_dir / "todo.json"
 # --- END IMPORTANT CHANGE ---
 
@@ -39,7 +36,7 @@ def save_todolist():
     try:
         with open(json_file, "w", encoding='utf-8') as f:
             json.dump(todolist, f, indent=4) # Use indent for pretty-printing
-        # typer.echo("Todo list saved successfully.") # Mute for cleaner CLI output
+       
     except Exception as e:
         typer.echo(f"Error saving todo list: {e}")
 
